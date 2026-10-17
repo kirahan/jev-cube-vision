@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+.vscode
+package-lock.json
+dist/
+vite-dev.log
+.env
+*.log

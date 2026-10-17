@@ -1,0 +1,39 @@
+{
+  "name": "cuber",
+  "description": "Rubik's Cube toolbox using TypeScript, React, Vite and Three.js.",
+  "version": "1.0.0",
+  "author": "huazhechen",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "watch": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "npm run build && vite preview"
+  },
+  "dependencies": {
+    "clipboard": "2.0.11",
+    "lucide-react": "1.27.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.0",
+    "@typescript-eslint/eslint-plugin": "8.65.0",
+    "@typescript-eslint/parser": "8.65.0",
+    "@vitejs/plugin-react": "6.0.4",
+    "eslint": "10.8.0",
+    "typescript": "7.0.2",
+    "vite": "^8.1.5",
+    "wrangler": "4.114.0"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}
